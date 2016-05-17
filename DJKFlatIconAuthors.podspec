@@ -13,9 +13,10 @@ Pod::Spec.new do |s|
                    * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
 
-  s.author             = { "WataruSuzuki" => "wataru0406@gmail.com" }
+  s.author       = { "WataruSuzuki" => "wataru0406@gmail.com" }
+  s.homepage     = "https://github.com/WataruSuzuki"
   s.source       = { :git => "https://github.com/WataruSuzuki/DJKFlatIconAuthors.git", :tag => "#{s.version}" }
-
+  s.platform     = :ios, "7.0"
   s.license      = { :type => 'CC 3.0 BY', :file => 'LICENSE.txt' }
-  
+
 end
