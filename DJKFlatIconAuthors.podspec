@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary      = "A short description of DJKFlatIconAuthors."
 
   s.description  = <<-DESC
-                   A longer description of DJKUtilNADView in Markdown format.
+                   A longer description of DJKFlatIconAuthors in Markdown format.
 
                    * Think: Why did you write this? What is the focus? What does it do?
                    * CocoaPods will be using this to generate tags, and improve search results.
@@ -18,5 +18,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/WataruSuzuki/DJKFlatIconAuthors.git", :tag => "#{s.version}" }
   s.platform     = :ios, "7.0"
   s.license      = { :type => 'CC 3.0 BY', :file => 'LICENSE.txt' }
+  s.source_files = "*.{h,m}"
 
 end
